@@ -1,15 +1,24 @@
 {
-  "name": "homework-three",
+  "name": "homework-seven",
   "version": "1.0.0",
-  "description": "",
+  "description": "This add the tours page and corresponding detailed tour pages to Travel Fly, expanding upon the web pages made previously.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile:sass": "sass scss/styles.scss css/styles.css -w"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devinPierceN215/homework-seven.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "sass": "^1.58.3"
+  "bugs": {
+    "url": "https://github.com/devinPierceN215/homework-seven/issues"
+  },
+  "homepage": "https://github.com/devinPierceN215/homework-seven#readme",
+  "dependencies": {
+    "sass": "^1.60.0"
   }
 }
