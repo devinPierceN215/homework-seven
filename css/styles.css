@@ -39,6 +39,10 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: gilllight;
   src: url(../fonts/Gill-Sans-Font-Family/Gill\ Sans\ Light.otf);
 }
+@font-face {
+  font-family: gillbold;
+  src: url(../fonts/Gill-Sans-Font-Family/Gill\ Sans\ Bold.otf);
+}
 .navHolder {
   position: absolute;
   top: 0;
@@ -632,6 +636,204 @@ footer .footcontainer .right {
   padding-top: 10px;
   margin-top: 80px;
   margin-bottom: 100px;
+}
+
+#app .spoffer {
+  margin-bottom: 100px;
+}
+#app .spoffer h1 {
+  margin-top: 148px;
+  font-size: 30px;
+  font-family: proxima-excond;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+#app .spoffer .line {
+  width: 200px;
+  height: 2px;
+  background-color: black;
+  margin-top: 9px;
+}
+#app .spoffer .container {
+  display: flex;
+  justify-content: space-between;
+  width: 538px;
+  height: 287px;
+  margin-left: 0;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+#app .spoffer .container #imgspoffer {
+  height: 100%;
+  width: 199px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#app .spoffer .container .img1 {
+  background-image: url(../images/special-offer-01.jpg);
+}
+#app .spoffer .container .img2 {
+  background-image: url(../images/special-offer-02.jpg);
+}
+#app .spoffer .container .left {
+  width: 341px;
+  margin-left: 20px;
+  height: 100%;
+}
+#app .spoffer .container .left .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#app .spoffer .container .left .top h2 {
+  font-size: 30px;
+  font-family: proxima-excond;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#app .spoffer .container .left .top h3 {
+  color: #FF7D38;
+  font-size: 20px;
+  font-family: proxima-excond;
+}
+#app .spoffer .container .left p {
+  font-family: gilllight;
+  font-size: 16px;
+  margin-top: 21px;
+}
+#app .spoffer .container .left .learn {
+  font-family: gillregular;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #79ADDC;
+  width: 133px;
+  height: 40px;
+  border-radius: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 52px;
+}
+
+#app .blog h1 {
+  margin-top: 148px;
+  font-size: 30px;
+  font-family: proxima-excond;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+#app .blog .line {
+  width: 106px;
+  height: 2px;
+  background-color: black;
+  margin-top: 9px;
+  margin-bottom: 30px;
+}
+#app .blog .container {
+  max-width: 980px;
+  margin-bottom: 100px;
+  align-items: normal;
+}
+#app .blog .container .date {
+  height: 60px;
+  width: 60px !important;
+  background-color: #79ADDC;
+  text-align: center;
+  color: white;
+}
+#app .blog .container .date h2 {
+  font-family: gillbold;
+  font-size: 22px;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+#app .blog .container .date p {
+  font-family: gilllight;
+  font-size: 12px;
+  margin-top: 0;
+}
+#app .blog .container .right {
+  max-width: 900px;
+  margin-left: 20px;
+}
+#app .blog .container .right .hero {
+  width: 100%;
+  background-image: url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 259px;
+}
+#app .blog .container .right h2 {
+  margin-top: 20px;
+  font-family: gillregular;
+  font-size: 16px;
+}
+#app .blog .container .right p {
+  color: #79ADDC;
+  font-family: gillregular;
+  font-size: 13px;
+  margin-top: 10px;
+  width: 40%;
+}
+
+#app .contact h1 {
+  margin-top: 148px;
+  font-size: 30px;
+  font-family: proxima-excond;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+#app .contact .line {
+  width: 159px;
+  height: 2px;
+  background-color: black;
+  margin-top: 9px;
+  margin-bottom: 30px;
+}
+#app .contact .container {
+  margin-bottom: 100px;
+  margin-left: 0;
+  margin-top: 50px;
+  align-items: normal;
+  max-width: 980px;
+}
+#app .contact .container .left p {
+  font-family: gilllight;
+  font-size: 18px;
+  margin-top: 34px;
+}
+#app .contact .container .right input, #app .contact .container .right textarea {
+  width: 100%;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: 0;
+  margin-bottom: 21px;
+  margin-left: 50px;
+  padding-left: 20px;
+  font-family: gillregular;
+  font-size: 16px;
+}
+#app .contact .container .right textarea {
+  height: 199px;
+  padding-top: 20px;
+}
+#app .contact .container .right a {
+  margin-left: 50px;
+  font-family: gillregular;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #79ADDC;
+  width: 167px;
+  height: 60px;
+  display: block;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
